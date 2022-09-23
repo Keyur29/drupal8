@@ -26,7 +26,7 @@ class locationtimeBlock extends BlockBase {
 		$loadData = \Drupal::service('location_time.timezone')->getTimezone();
 		$date = new DrupalDateTime("now", $loadData);
 		$finaldate = $date->format('l, d F Y');
-		$finaltime = $date->format('H:i a');
+		$finaltime = $date->format('h:i a');
 
 		\Drupal::service('page_cache_kill_switch')->trigger();
 
