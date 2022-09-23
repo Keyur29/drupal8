@@ -1,0 +1,13 @@
+<?php
+
+/** 
+ * Implements hook_theme(). 
+ */
+
+function location_time_theme($existing, $type, $theme, $path){
+	return [
+		'my_template' => [
+			'variables' => ['country' => NULL, 'city' => NULL, 'time' => NULL, 'date' => NULL],
+		],
+	];
+}
