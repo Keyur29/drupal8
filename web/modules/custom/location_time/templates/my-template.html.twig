@@ -1,3 +1,7 @@
+{% if (country is not empty) and  (city is not empty) %}
 <strong>{{ time }}</strong><br />
 {{ date }} <br />
 Time in {{ country }}, {{ city }}
+{% else %}
+<strong>Please set Country, City and Timezone from backend to see location and current time. For more details read README.txt.</strong>
+{% endif %}
