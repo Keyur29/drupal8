@@ -13,6 +13,8 @@ Create product pages.
 
 List down the page URL/s in block configure on which QR code to be displayed.
 
+NOTE : As of now we have set QR code for "https://www.google.com/". When user scan QR code, it will redirect to "https://www.google.com/". 
+
 Demo site :
 Site URL : https://dev-product-details-with-qr-code.pantheonsite.io/
 
