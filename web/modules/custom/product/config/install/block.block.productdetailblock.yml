@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - product
+  theme:
+    - olivero
+id: productdetailblock
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: product_detail_block
+settings:
+  id: product_detail_block
+  label: 'Product detail block'
+  label_display: '0'
+  provider: product
+visibility: {  }

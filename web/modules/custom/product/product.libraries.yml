@@ -1,0 +1,11 @@
+product:
+  version: 1.x
+  css:
+    theme:
+      css/product.css: {}
+
+common:
+  version: 1.x
+  css:
+    theme:
+      css/common.css: {}

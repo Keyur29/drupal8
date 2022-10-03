@@ -1,0 +1,16 @@
+<?php
+
+function product_page_attachments(&$variables) {
+	$node = \Drupal::routeMatch()->getParameter('node');
+  $current_path = \Drupal::service('path.current')->getPath();
+  
+	if ($node instanceof \Drupal\node\NodeInterface) {
+		$node_type = $node->bundle();
+    
+		if($node_type == "product" && !preg_match('/node\/(\d+)\/edit/', $current_path, $matches)){
+			$variables['#attached']['library'][] =  'product/product';
+		}
+	}else{
+      $variables['#attached']['library'][] =  'product/common';
+  }
+}

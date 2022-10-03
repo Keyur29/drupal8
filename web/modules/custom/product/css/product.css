@@ -1,0 +1,7 @@
+body.page-node-type-product { font-family: arial; }
+.node__meta { display: none !important; }
+.field__label { display: none; }
+.field--name-body {float: right; width: 60%; }
+.field--name-field-product-image { float: left; width: 27% !important; margin: 0 !important; }
+.unicorn_content span { color: red; }
+svg { margin-top: 100px; border-left: dashed 2px; }

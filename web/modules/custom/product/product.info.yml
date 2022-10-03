@@ -1,0 +1,6 @@
+name: Product Details
+type: module
+description: 'Adds Custom "Product" content type.'
+core_version_requirement: ^8 || ^9
+dependencies:
+  - node
