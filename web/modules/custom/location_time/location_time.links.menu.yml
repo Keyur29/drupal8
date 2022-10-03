@@ -1,6 +1,0 @@
-location_time.admin_settings_form:  
-  title: 'Location time configuration'  
-  route_name: location_time.admin_settings_form  
-  description: 'Location time admin'  
-  parent: system.admin_config_system  
-  weight: 99 
