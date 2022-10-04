@@ -1,4 +1,4 @@
-Module is regarding custom product content type and QR code generate. This module will work on Drupal 8 and 9 versions.
+Module is regarding custom product content type and QR code generate. This module will work on Drupal 9 version with Olivero theme as set block to "sidebar" region of Olivero theme.
 
 As per instruction on https://github.com/Dineshkushwaha/sph-test, used "mpdf/qrcode" library for QR code generation mentioned in link (https://packagist.org/?q=php%20qrcode&p=0) which is provided by you.
 
